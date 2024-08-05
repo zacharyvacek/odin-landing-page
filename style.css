@@ -31,10 +31,55 @@ nav {
 nav ul {
     list-style-type: none;
     font-size: 18px;
-    padding: 0 20px;
+    padding: 0 0 0 40px;
 }
 
 header a {
     color: #f9faf8;
     text-decoration: none;
+}
+
+/********
+HERO
+********/
+
+.hero {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    margin: 50px 0;
+    padding: 0 100px 0 200px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 300;
+}
+
+.hero button {
+    margin-top: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    padding: 15px 32px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.hero img {
+    width: 400px;
+    margin: 100px 0;
+    padding: 0 200px 0 0;
 }
