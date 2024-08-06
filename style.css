@@ -117,3 +117,58 @@ INFO
     text-align: center;
     color: #767676;
 }
+
+/********
+QUOTE
+********/
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 50px 0;
+}
+
+.quote-section p {
+    color: #1f2937;
+}
+
+.quote {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.quote blockquote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.attribution {
+    font-size: 26px;
+    text-align: right;
+    margin-top: 10px;
+}
+
+/********
+CALL TO ACTION
+********/
+
+.coa {
+    background-color: #3882f6;
+    width: 65%;
+    margin: 75px auto;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.coa button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 1px solid #f9faf8;
+    padding: 15px 32px;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+}
